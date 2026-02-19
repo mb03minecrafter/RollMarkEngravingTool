@@ -8,7 +8,7 @@ It exports individual SVG objects using the Inkscape CLI, computes distance-tran
 
 Designed for precision roll marks and controlled wall tapering.
 
----
+
 
 ## Features
 
@@ -20,7 +20,7 @@ Designed for precision roll marks and controlled wall tapering.
 - Depth-to-pass calculation using calibration data
 - High DPI raster export for smooth grayscale transitions
 
----
+
 
 ## What This Solves
 
@@ -35,7 +35,7 @@ This tool generates:
 
 Instead of guessing at grayscale power curves, you generate geometry-aware heightmaps.
 
----
+
 
 ## Requirements
 
@@ -52,7 +52,7 @@ Install dependencies:
 pip install -r requirements.txt
 
 
----
+
 
 ## Inkscape Configuration
 
@@ -63,7 +63,7 @@ INKSCAPE_EXE = r"C:\Program Files\Inkscape\bin\inkscape.exe"
 
 If you are on macOS or Linux, update this path to your local Inkscape binary.
 
----
+
 
 ## Project Structure
 
@@ -90,7 +90,7 @@ Generated files will appear in:
 output/
 
 
----
+
 
 ## Output Files
 
@@ -105,7 +105,7 @@ Blended straight-wall and sloped-wall profile.
 
 The console also reports required laser passes based on your `MM_PER_PASS` calibration.
 
----
+
 
 ## License
 
