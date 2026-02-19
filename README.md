@@ -1,4 +1,4 @@
-# RollMarkEngravingProject
+# Roll Mark Engraving Tool
 
 ## SVG to Grayscale Heightmap Generator for Precision Laser Engraving
 
